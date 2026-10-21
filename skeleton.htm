@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link href="styles.css" rel="stylesheet"> 
+        <link href="nav.css" rel="stylesheet">
     </head>
            
     <body>
@@ -24,16 +25,21 @@
 
                 <div class="clear"></div>
 
-                <nav class="w3-container">
-                    <ul>
-                        <li><h3><a href="index.htm">Home</a> </h3></li>
-                        <li><h3><a href="resume.htm">Resume</a></h3></li>
-                        <li><h3><a href="interests.htm">Interests</a></h3></li>
-                        <!--<li><h3><a href="blog.htm">Blog</a></h3></li> -->
-                        <li><h3><a href="projects.htm">Projects</a></h3></li>
-                        <!-- <li><h3><a href="donate.htm">Donate</a></h3></li> -->
-                    </ul>
-                </nav>
+                <div class="navbar">
+                    <a href="index.htm">Home</a>
+                    <a href="resume.htm">Resume</a>
+                    <a href="interests.htm">Interests</a>
+                    <div class="dropdown">
+                        <button class="dropbtn">Projects
+                        <i class="fa fa-caret-down"></i>
+                        </button>
+                        <div class="dropdown-content">
+                        <a href="madlibs.htm">Mad Libs</a>
+                        <a href="blog.htm">Personal Blog</a>
+                        <!-- <a href="#">Link 3</a> -->
+                        </div>
+                    </div>
+                </div>
 
                 <div class="clear"></div>
 
